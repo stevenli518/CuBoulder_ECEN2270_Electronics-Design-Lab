@@ -1,0 +1,17 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal 160 79 -144 -49
+TEXT -97 16 Left 3 Speed Sensor
+WINDOW 0 0 -48 Bottom 2
+PIN -144 48 LEFT 8
+PINATTR PinName enc
+PINATTR SpiceOrder 1
+PIN -144 -16 LEFT 8
+PINATTR PinName Vcc
+PINATTR SpiceOrder 2
+PIN 160 -16 RIGHT 8
+PINATTR PinName PWM
+PINATTR SpiceOrder 3
+PIN 160 48 RIGHT 8
+PINATTR PinName speed
+PINATTR SpiceOrder 4

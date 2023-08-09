@@ -1,0 +1,17 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal 160 80 -160 -48
+TEXT -79 16 Left 2 I-Compensator
+WINDOW 0 144 -48 Bottom 2
+PIN 0 -48 TOP 8
+PINATTR PinName Vcc
+PINATTR SpiceOrder 1
+PIN -160 -16 LEFT 8
+PINATTR PinName Vref
+PINATTR SpiceOrder 2
+PIN -160 48 LEFT 8
+PINATTR PinName Vs
+PINATTR SpiceOrder 3
+PIN 160 48 RIGHT 8
+PINATTR PinName Vo
+PINATTR SpiceOrder 4

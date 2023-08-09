@@ -1,0 +1,14 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal 79 65 -63 -33
+TEXT -62 81 Left 2 Opamp Filter
+WINDOW 0 115 -48 Top 2
+PIN -64 16 LEFT 8
+PINATTR PinName Vin
+PINATTR SpiceOrder 1
+PIN 0 -32 TOP 8
+PINATTR PinName Vcc
+PINATTR SpiceOrder 2
+PIN 80 16 RIGHT 8
+PINATTR PinName Vout
+PINATTR SpiceOrder 3

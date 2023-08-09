@@ -1,0 +1,30 @@
+************************************
+* Model eyeballed by Peter Mathys  *
+* from RSR020P05, and Diodes       *
+* Incorporated ZVP2106A data sheet *
+* For ECEN 2270, 10-25-20          *
+************************************
+.MODEL ZVP2106A VDMOS
++pchan
++Rg=33.7
++Vto=-2.2158
++Rd=109.4m
++Rs=1m
++Rb=32.104m
++Kp=6.5
++Lambda=0.03
++Cgdmin=20p
++Cgdmax=100p
++A=0.3
++Cgso=460p
++Is=455.12f
++N=1.023
++Cjo=140.85p
++M=481.53m
++Vj=790.12m
++TT=42n
++ksubthres=.1
++mfg=DiodesInc
++Vds=-60
++Ron=130m
++Qg=9.5n

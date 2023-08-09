@@ -1,0 +1,21 @@
+************************************
+* Model eyeballed by Peter Mathys  *
+* from FZT849, 2N4922, and ON      *
+* Semiconductor MJE200G data sheet *
+* For ECEN 2270, 9-07-20           *
+************************************
+.MODEL MJE200G npn
++IS=5.9e-13
++BF=100
++VAF=90
++IKF=18
++ISE=2e-13
++RB=0.03
++RE=0.02
++RC=0.015
++TF=1e-9
++CJC=2e-10
++VJC=0.4
++MJC=0.3
++Icrating=5
++mfg=onsemi
